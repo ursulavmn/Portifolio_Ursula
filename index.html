@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Portfólio de uma Desenvolvedora Web - úrsula Nunes">
+	<title>Úrsula Nunes</title>
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@200;400;700&display=swap" rel="stylesheet">
+	<link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+	<header id="header">
+		<nav id="nav">
+			<a href="#introducao" class="header-logo">@ursulaanunes</a>
+			<button id="btn-mobile">
+				<span id="hamburger"></span>
+			</button>
+			<ul class="header-menu">
+				<li><a href="#sobre">sobre mim</a></li>
+				<li><a href="#skills">Conhecimentos</a></li>
+				<li><a href="#projetos">Projetos</a></li>
+				<li><a href="#contato">Contato</a></li>
+				<li><a href="/img/Currículo ursulaanunes.pdf" target="_blank" id="btn-principal">CV Download</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main id="introducao" class="introducao container">
+		<img src="./img/imagem.jpg" alt="Uma foto minha - úrsula vitória">
+		<div class="introducao-texto">
+			<span class="hello">Oi, meu nome é</span>
+			<h1>
+				<spam class="texto-second"> Úr</spam>sula <span class="texto-second">Nu</span>nes
+			</h1>
+			<p id="build">I build things for the web.</p>
+		</div>
+	</main>
+
+	<section id="sobre" class="sobre container">
+		<h2 class="sobre-subtitulo">sobre mim</h2>
+		<div class="sobre-wrapper">
+			<div class="sobre-texto">
+				<p>
+					Me chamo Úrsula, tenho 21 anos, moro em Amontada - CE e sou apaixonada pelo que faço! Entrei na área de Tecnologia no começo de 2022, por meio do meu irmão que já atua na área, e desde então, busco sempre me manter atualizada em meu campo de atuação com foco no meu crescimento profissional.</br>
+					Possuo experiência em desenvolvimento Front-End, trabalhando com tecnologias avançadas como JavaScript e React.js, e sempre me esforço para entregar resultados de alta qualidade.</br>
+					Estou cursando Análise e Desenvolvimento de Sistemas. 
+					Em agosto de 2022 iniciei os meus estudos na instituição chamada Amontada Valley, onde me interessei pelo método de ensino e pelo conhecimento fornecido. Foi então que comecei a me dedicar cada vez mais. Hoje estou próxima de concluir o curso de Desenvolvedor(a) Front-End, mas irei continuar mantendo os estudos, pois acredito que estamos sempre em constante aprendizado.
+					A cada dia estou mais perto do meu sonho nessa área e tenho certeza que irei conseguir. Já dizia Walt Disney: Believe your dreams.
+				</p>
+				<div class="sobre-icons">
+					<a href="/img/Currículo ursulaanunes.pdf" target="_blank" id="btn-principal">CV Download</a>
+					<a href="https://github.com/ursulavmn" target="_blank">
+						<box-icon name='github' type='logo' animation='' color='var(--yellow)' size='lg'></box-icon>
+					</a>
+					<a href="https://www.linkedin.com/in/%C3%BArsula-nunes-5632a4236/" target="_blank">
+						<box-icon name='linkedin-square' type='logo' animation='' color='var(--yellow)' size='lg'></box-icon>
+					</a>
+				</div>
+			</div>
+			<img class="myimg" src="./img/minhafoto.png" alt="Foto de Giovana">
+		</div>
+	</section>
+	<section id="skills" class="conhecimentos-container">
+		<h2 class="conhecimentos-titulo">Conhecimentos</h2>
+		<div class="conhecimentos-wrapper">
+			<a class="conhecimento-icons html">
+				<img src="./img/html.svg" alt="Logo HTML">
+				<h4 class="conhecimento-icons-texto">HTML</h4>
+			</a>
+			<a class="conhecimento-icons css ">
+				<img src="./img/css.svg" alt="Logo CSS">
+				<h4 class="conhecimento-icons-texto">CSS</h4>
+			</a>
+			<a class="conhecimento-icons js">
+				<img src="./img/js.svg" alt="Logo Javascript">
+				<h4 class="conhecimento-icons-texto">JavaScript</h4>
+			</a>
+			<a class="conhecimento-icons react">
+				<img src="./img/react.svg" alt="Logo React">
+				<h4 class="conhecimento-icons-texto">React</h4>
+			</a>
+			<a class="conhecimento-icons git">
+				<img src="./img/git.svg" alt="Logo Git">
+				<h4 class="conhecimento-icons-texto">Git</h4>
+			</a>
+		</div>
+		<div class="descricao">
+			<p class="mudaDescricao">*passe o cursor no card para saber mais sobre meus conhecimentos*</p>
+		</div>
+	</section>
+	<section id="projetos" class="projetos container">
+		<div class="projetos-wrapper">
+			<h2 class="projetos-subtitulo">Projetos</h2>
+			<div class="projetos-box">
+				<img src="/img/organo.jpg" alt="">
+				<div class="projetos-conteudo">
+					<h3>Organo</h3>
+					<p>Projeto para criar o card de colaboradoradores <br>Desenvolvido com React JS</p>
+					<div class="proj-icons">
+						<a href="https://github.com/ursulavmn/organo" target="_blank">
+							<box-icon name='github' type='logo' animation='tada-hover' color='var(--yellow)' size='md'></box-icon>
+						</a>
+						<a href="https://organo-ecru-six.vercel.app/" target="_blank">
+							<box-icon name='link-external' animation='tada-hover' color='var(--yellow)' size='md'></box-icon>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="projetos-box">
+                <img src="/img/imovi.jpg" alt="">
+                <div class="projetos-conteudo">
+                    <h3>IMOVI</h3>
+                    <p>Um projeto usando Bootstrap, HTML e CSS</p>
+                    <div class="proj-icons">
+                        <a href="https://github.com/ursulavmn/imovi" target="_blank">
+                            <box-icon name='github' type='logo' animation='tada-hover' color='var(--yellow)' size='md'></box-icon>
+                        </a>
+                        <a href="https://imovi.vercel.app/" target="_blank">
+                            <box-icon name='link-external' animation='tada-hover' color='var(--yellow)' size='md'></box-icon>
+                        </a>
+                    </div>
+                </div>
+            </div>
+			<div class="projetos-box">
+                <img src="/img/pomodoro.jpg" alt="">
+                <div class="projetos-conteudo">
+                    <h3>Pomodoro Timer</h3>
+                    <p>Desenvolvido com HTML, CSS e JavaScript</p>
+                    <div class="proj-icons">
+                        <a href="https://github.com/ursulavmn/pomodoro" target="_blank">
+                            <box-icon name='github' type='logo' animation='tada-hover' color='var(--yellow)' size='md'></box-icon>
+                        </a>
+                        <a href="https://pomodoro-eight-zeta.vercel.app/" target="_blank">
+                            <box-icon name='link-external' animation='tada-hover' color='var(--yellow)' size='md'></box-icon>
+                        </a>
+                    </div>
+                </div>
+            </div>
+			<div class="projetos-box">
+                <img src="/img/cronometro.jpg" alt="">
+                <div class="projetos-conteudo">
+                    <h3>Cronômetro Online</h3>
+                    <p>Desenvolvido com HTML, CSS e Javascript</p>
+                    <div class="proj-icons">
+                        <a href="https://github.com/ursulavmn/cronometro" target="_blank">
+                            <box-icon name='github' type='logo' animation='tada-hover' color='var(--yellow)' size='md'></box-icon>
+                        </a>
+                        <a href="https://cronometro-seven-psi.vercel.app/" target="_blank">
+                            <box-icon name='link-external' animation='tada-hover' color='var(--yellow)' size='md'></box-icon>
+                        </a>
+                    </div>
+                </div>
+            </div>
+			<div class="projetos-box">
+                <img src="/img/quizz.jpg" alt="">
+                <div class="projetos-conteudo">
+                    <h3>Quiz de Programação</h3>
+                    <p>Desenvolvido com HTML, CSS e JavaScript</p>
+                    <div class="proj-icons">
+                        <a href="https://github.com/ursulavmn/quizz" target="_blank">
+                            <box-icon name='github' type='logo' animation='tada-hover' color='var(--yellow)' size='md'></box-icon>
+                        </a>
+                        <a href="https://quizz-umber.vercel.app/" target="_blank">
+                            <box-icon name='link-external' animation='tada-hover' color='var(--yellow)' size='md'></box-icon>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="projetos-box">
+                <img src="/img/senha.jpg" alt="">
+                <div class="projetos-conteudo">
+                    <h3>Senha Aleatória</h3>
+                    <p>Desenvolvido com HTML, CSS e JavaScript</p>
+                    <div class="proj-icons">
+                        <a href="https://github.com/ursulavmn/gerador_senha_aleatoria" target="_blank">
+                            <box-icon name='github' type='logo' animation='tada-hover' color='var(--yellow)' size='md'></box-icon>
+                        </a>
+                        <a href="https://gerador-senha-aleatoria.vercel.app/" target="_blank">
+                            <box-icon name='link-external' animation='tada-hover' color='var(--yellow)' size='md'></box-icon>
+                        </a>
+                    </div>
+                </div>
+            </div>
+			<div class="wrapper-btn">
+				<a href="todos-projetos.html" class="btn-top">Mais Projetos +</a>
+			</div>
+		</div>
+	</section>
+	<footer id="contato" class="contato-container">
+		<div class="contato-wrapper">
+			<h2 class="contato-titulo">Contato</h2>
+			<p>Se você tiver alguma dúvida sobre mim ou meus projetos, entre em contato comigo e marcamos uma conversa.
+				<br>Obrigada pela visita!
+			</p>
+			<div class="redes-icons-wrapper">
+				<a id="meuemail" href="mailto:giovanaraphaelli@outlook.com" target="_blank">ursulavmn@gmail.com</a>
+				<div class="redes-icon">
+					<a href="https://wa.me/88998020095" target="_blank">
+						<box-icon name='whatsapp-square' type='logo' animation='' color='var(--font-first)' size='lg'></box-icon>
+					</a>
+					<a href="https://www.linkedin.com/in/%C3%BArsula-nunes-5632a4236/" target="_blank">
+						<box-icon name='linkedin-square' type='logo' animation='' color='var(--font-first)' size='lg'></box-icon>
+					</a>
+					<a href="https://github.com/ursulavmn" target="_blank">
+						<box-icon name='github' type='logo' animation='' color='var(--font-first)' size='lg'></box-icon>
+					</a>
+				</div>
+			</div>
+			<p class="dev">Desenvolvido por <a class="contato-logo" href="#introducao">@ursulaanunes💫</a></p>
+		</div>
+	</footer>
+	<script src="https://unpkg.com/boxicons@2.1.1/dist/boxicons.js"></script>
+	<script src="https://unpkg.com/scrollreveal"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
